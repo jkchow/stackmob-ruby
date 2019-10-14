@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<oauth>, ["~> 0.4.5"])
-      s.add_runtime_dependency(%q<yajl-ruby>, ["~> 0.8.2"])
+      s.add_runtime_dependency(%q<yajl-ruby>, ">= 0.8.2", "< 1.5.0")
       s.add_runtime_dependency(%q<thor>, [">= 0.14.0"])
       s.add_runtime_dependency(%q<thin>, ["~> 1.2.0"])
       s.add_runtime_dependency(%q<rack>, ["~> 1.3"])
@@ -64,7 +64,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<httpclient>, ["~> 2.2.4"])
     else
       s.add_dependency(%q<oauth>, ["~> 0.4.5"])
-      s.add_dependency(%q<yajl-ruby>, ["~> 0.8.2"])
+      s.add_dependency(%q<yajl-ruby>, ">= 0.8.2", "< 1.5.0")
       s.add_dependency(%q<thor>, [">= 0.14.0"])
       s.add_dependency(%q<thin>, ["~> 1.2.0"])
       s.add_dependency(%q<rack>, ["~> 1.3"])
@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<oauth>, ["~> 0.4.5"])
-    s.add_dependency(%q<yajl-ruby>, ["~> 0.8.2"])
+    s.add_dependency(%q<yajl-ruby>, ">= 0.8.2", "< 1.5.0")
     s.add_dependency(%q<thor>, [">= 0.14.0"])
     s.add_dependency(%q<thin>, ["~> 1.2.0"])
     s.add_dependency(%q<rack>, ["~> 1.3"])
