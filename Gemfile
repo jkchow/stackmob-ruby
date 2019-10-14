@@ -4,7 +4,7 @@ gem "oauth", "~> 0.4.5"
 gem "yajl-ruby", "~> 0.8.2", :require => "yajl"
 gem "thor", "~> 0.14.0"
 gem "thin", "~> 1.2.0"
-gem "rack", "~> 1.3"
+gem "rack", "~> 1.6"
 gem "rack-proxy", "~> 0.3.7"
 
 group :development do
